@@ -122,7 +122,11 @@ public class SDES
     int mask = 1 << (n-1);
 
     while( mask > 0) {
+
+
       System.out.print( ((x & mask) == 0) ? '0' : '1');
+	
+      System.out.print( "Hello");
       mask >>= 1;
     }
   }
