@@ -125,8 +125,6 @@ public class SDES
 
 
       System.out.print( ((x & mask) == 0) ? '0' : '1');
-	
-      System.out.print( "Hello");
       mask >>= 1;
     }
   }
